@@ -1,0 +1,537 @@
+@font-face {
+    font-family: "mvboli";
+    font-style: normal;
+    src: url('<?php echo base_url(); ?>assets/font/mvboli.ttf');
+}
+
+body {
+    font-family:helvetica!important;
+    margin:30px 0px 0px; 
+    padding:0px;
+    line-height: 1.5;
+}
+
+
+.pdf-container {
+    width: 1140px;
+    max-width: 100%;
+}
+/*.pdf-container {
+    padding-right: 15px;
+    padding-left: 15px;
+}*/
+.pdf-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.marTP-30 {
+    margin-top: 30px;
+}
+
+.marTP-20 {
+    margin-top: 20px;
+}
+
+/*-------- Heading Style CSS --------*/
+h1.pdf-heading {
+    font-size: 24pt;
+    color:#4b4b93;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1.heading-large {
+    font-size: 46pt;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.15em;
+}
+
+
+h4 { 
+    font-weight: 600;
+    font-size: 14pt;
+    line-height: 1.4em;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 1.4em;
+    margin-top: 0.5em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 15pt;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+/*------------Heading Style Css Ends Here----------*/
+
+
+/*------------- Form Style CSS Here --------------*/
+form {
+    width: 100%;
+    margin: 0px;
+}
+
+/*=======Form Index Page Style CSS==========*/
+
+.index-table {
+    width: 70%!important;
+    margin-left:auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 0px;
+    border: 1px solid #000000!important;
+    /*border-bottom: 0px solid transparent!important;*/
+}
+
+.index-table > tbody > tr > td {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    padding: 0.25rem 0.85rem;
+}
+
+
+/*.index-table> .table-bordered >tr >td {
+    padding: 0.05rem .5rem!important;
+}*/
+
+  td.first-one {
+    background-color: #f2f2f2;
+    text-align: right;
+    line-height: 1.85em;
+    font-weight: bold;
+    padding-right: 0.85em!important;
+    font-size: 9pt;
+    width: 15%!important;
+  }
+
+.index-table> .table-bordered >tr >td>input.form-control {
+    width: 100%;
+}
+
+.alert-box {
+    border:2px solid red;
+   /* padding: 5px 5px;*/
+    text-align: center;
+    width: 85%;
+}
+
+.alert-box h5 {
+    color: red;
+    margin-bottom: 0px!important;
+}
+
+.alert-box p {
+    margin-bottom: 10px!important;
+    color: #000000;
+    font-size: 10pt;
+}
+
+.index-section {
+    width: 90%;
+}
+
+.index-list {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    font-size: 10pt;
+}
+
+.index-list-section {
+    width: 80%;
+    display: block;
+    margin: 0px auto!important;
+    
+}
+
+/*======= /Form Index Page Style CSS==========*/
+
+/*----------- Table Style Starts Here ------------*/
+
+th {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0rem!important;
+}
+
+.table-bordered {
+    border: 1px solid #000000;
+}
+
+.table > tbody > tr > td {
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+.table thead th {
+    vertical-align: middle;
+    border-bottom: 0px;
+    border:1px solid #000000;
+    background-color: #f2f2f2;
+    font-size: 10pt!important;
+}
+
+/*.table-bordered, .table-bordered td, .table-bordered th {
+    border: 1px solid #000000!important;
+}*/
+
+.table td, .table th {
+    padding: 3px 0px 0px;
+    width: 30%;
+    vertical-align: middle;
+    }
+
+.table td {
+  font-size: 8pt!important;
+  padding: 0px 5px;
+}
+
+.table-bordered > tr >td.first-one {
+    background-color: #f2f2f2;
+    text-align: right;
+    /*line-height: 1.15em;*/
+    font-weight: bold;
+    padding-right: 0.85em;
+    font-size: 8pt!important;
+}
+
+/*----------------- Title List Css ----*/
+ul.title-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.title-list li {
+    float: left!important;
+    display:inline-table;
+    text-align: left!important;
+}
+
+ul.title-list li > span {
+    padding: 10px 20px;
+    margin: 5px 0px;
+}
+
+.span {
+    width: 150px;
+    padding: 0px 10px;
+    float: left;
+}
+
+.span > .form-check-label  {
+    margin: 0px 10px 0px 0px;
+}
+
+div > .check-img {
+    /*float: right!important;*/
+}
+
+.check-img{
+    width: 15px;
+    height: 15px;
+    /*float: right;*/
+}
+
+.col-md-2 > .check-img,
+.col-md-3 > .check-img,
+.col-md-4 > .check-img {
+    margin-top: 3px;
+}
+
+/*---- Form Css Starts Here---*/
+
+.form-check {
+    position: relative;
+    display: block;
+ /*   margin:5px;*/
+    text-align: right;
+}
+
+.form-check > img {
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.form-check-label {
+    padding-left: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: .25rem;
+    margin-left: -1.25rem;
+}
+
+.form-control {
+    padding: .2rem;
+    border: 0px;
+}
+
+select.form-control:not([size]):not([multiple]) {
+     height:inherit; /*calc(2.25rem + 2px); */
+     font-size: 14px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.float-none {
+    float: none;
+}
+
+/*.float-right {*/
+/*    float: right;*/
+/*}*/
+
+.col-md-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: inline-block!important;
+}
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: inline-block!important;
+}
+
+.col-md-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    display: inline-block!important;
+}
+
+.col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-md-4 {
+    padding: 0px 15px;
+}
+
+.col-md-10 {
+  width: 78%!important;
+}
+
+.col-md-11 {
+    width: 85%!important;
+}
+
+.col-lg-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+/*.col-lg-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}*/
+
+/*.col-lg-10 {
+    width: 90%;
+}*/
+
+.center-block {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+.tab-child td, .tab-child th {
+    padding: 0px 2px;
+    /*width: 15%;*/
+    vertical-align: middle!important;
+}
+
+.tab-child td {
+    border:1px solid #000000;
+    font-size: 8pt;
+}
+
+.tab-child th {
+    vertical-align: middle;
+    border-bottom: 0px;
+    border: 1px solid #000000;
+    background-color: #f2f2f2;
+    font-size: 9pt;
+}
+
+.tab-child >.table-bordered > tr >td.first-one {
+    background-color: transparent;
+    /*text-align: right;*/
+    line-height: 1.85em;
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 0px;
+}
+
+.tab-child > tbody > tr > td > span > .form-check-label {
+    font-size: 8pt!important;
+}
+
+.tab-child > tbody > tr > td > span > img {
+    margin-top: 5px;
+}
+/*
+.tab-child > .table-bordered > tr > td > span {
+    padding: 5px 0px;
+    display: block;
+    float: left;
+}
+
+.tab-child > .table-bordered > tr > td > span > .form-check-label {
+    padding-left: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 9pt;
+}
+
+.tab-child > .table-bordered > tr > td > center > span > .form-check-label {
+    font-size: 9pt;
+}*/
+
+/*.tab-child > .table-bordered > tr > td > span > .check-img,
+.tab-child > .table-bordered > tr > td > center > span > .check-img {
+    float: none!important;
+    margin: -3px 0px;
+}*/
+
+.financial-table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0rem;
+}
+
+.financial-table > thead > tr > th {
+    vertical-align: middle;
+    border-bottom: 0px;
+    border:1px solid #000000;
+    background-color: #f2f2f2;
+    font-size: 9pt!important;
+}
+
+.financial-table > tbody > tr > td.first-one {
+    width: 70%!important;
+}
+
+.financial-table > tbody > tr > td {
+    border: 1px solid #000000;
+    font-size: 8pt!important;
+    line-height: 1.25em;
+}
+
+
+ul.scheme-list  {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.scheme-list li {
+    display: inline-block;
+}
+
+ul.scheme-list li > div {
+    width: 40%;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+/*ul.scheme-list li {
+    float: left!important;
+    width: 40%;
+    padding: 0px 15px;
+    display: inline-table;
+}
+
+ul.scheme-list li > span {
+    padding: 5px;
+}*/
+
+/*
+
+
+
+
+button {
+    text-align: center;
+}
+*/
+/*Bootstrap classes used*/
+/*.
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+}
+
+.form-control{
+    display: block;
+    line-height: 1.25;
+    color: #464a4c;
+    background-color: #fff;
+    background-image: none;
+}
+*/
